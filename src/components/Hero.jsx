@@ -21,7 +21,7 @@ const Hero = ({ heroapi }) => {
             >
               {btntext}
             </button>
-            <div className="">
+            <div className="grid items-center gap-5 md:gap-3 absolute top-[33vh] lg:top-[27vh] left-[11%] xl:left-0 w-auto h-auto ">
               {videos?.map((val, i) => (
                 <Clips key={i} imgsrc={val.imgsrc} clip={val.clip} />
               ))}
